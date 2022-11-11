@@ -1,0 +1,78 @@
+.bg-navbar {
+  background: rgb(47,77,48);
+  background: radial-gradient(circle, rgba(47,77,48,1) 0%, rgba(70,115,72,1) 50%, rgba(47,77,48,1) 100%);
+}
+
+.navbar-nav > .active {
+  border-radius: 100px;
+  filter: invert(100%) sepia(56%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);  
+}
+
+.activeDropdown {
+  border-radius: 100px;  
+  filter: invert(100%) sepia(56%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%);  
+  width: 100%;
+}
+
+.bg-euro {
+  background-image: url(euro.jpg);
+  background-size: 400px 200px;
+  background-position: right;
+  text-shadow: 0 0 6px #020;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bg-euro:hover {
+  transition: 0.15s;
+  transform: scale(1.04);
+  font-weight: bold;
+}
+
+.bg-copa {
+  background-image: url(copa.png);
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-shadow: 0 0 6px #020;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bg-copa:hover {
+  transition: 0.15s;
+  transform: scale(1.04);
+  font-weight: bold;
+}
+
+.bg-premier {
+  background-image: url(premier.png);
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-shadow: 0 0 8px #000;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bg-premier:hover {
+  transition: 0.15s;
+  transform: scale(1.04);
+  font-weight: bold;
+}
+
+.bg-super {
+  background-image: url(champions.png);
+  background-size: 100% 100px;
+  background-repeat: no-repeat;
+  background-position: bottom;
+  text-shadow: 0 0 9px #000;
+  border: 1px solid #dfe1e5;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.bg-super:hover {
+  transition: 0.15s;
+  transform: scale(1.04);
+  font-weight: bold;
+}
